@@ -1,7 +1,7 @@
 /** A doubly linked list that can: <ul>
  *   <li> Insert from the beginning, end, and sorted </li>
  *   <li> Extract from the beginning or the end </li>
- *   <li> Delete the first occurrence of a value </li>
+ *   <li> Delete the first or last occurrence of a value </li>
  *   <li> Delete all occurrences of a value </li>
  *   <li> Print the entire list forwards and backwards</li> </ul> */
 public class MyDoublyLinkedList<E extends Comparable<E>>{
@@ -11,7 +11,7 @@ public class MyDoublyLinkedList<E extends Comparable<E>>{
     /** A doubly linked list that can: <ul>
      *   <li> Insert from the beginning, end, and sorted </li>
      *   <li> Extract from the beginning or the end </li>
-     *   <li> Delete the first occurrence of a value </li>
+     *   <li> Delete the first or last occurrence of a value </li>
      *   <li> Delete all occurrences of a value </li>
      *   <li> Print the entire list forwards and backwards</li> </ul> */
     public MyDoublyLinkedList(){
